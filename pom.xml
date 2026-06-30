@@ -31,21 +31,22 @@
 				<extensions>true</extensions>
 				<configuration>
 					<classifier>mule-application</classifier>
-					<cloudhub2Deployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<provider>MC</provider>
-						<environment>dev</environment>
-						<target>Cloudhub-US-East-2</target> 
-						<muleVersion>4.12.0</muleVersion>
-						<username>poolavishnu52</username>
-						<password>Gyan@060219</password>
-						<applicationName>cicd</applicationName>
-						<replicas>1</replicas>
-						<vCores>0.1</vCores>
-						<deploymentSettings>
-							<generateDefaultPublicUrl>true</generateDefaultPublicUrl>
-						</deploymentSettings>
-					</cloudhub2Deployment>
+<cloudhub2Deployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <provider>MC</provider>
+    <environment>dev</environment>
+    <target>Cloudhub-US-East-2</target> 
+    <muleVersion>4.12.0</muleVersion>
+    
+    <server>anypoint-exchange-v3</server>
+    
+    <applicationName>cicd</applicationName>
+    <replicas>1</replicas>
+    <vCores>0.1</vCores>
+    <deploymentSettings>
+        <generateDefaultPublicUrl>true</generateDefaultPublicUrl>
+    </deploymentSettings>
+</cloudhub2Deployment>
 				</configuration>
 			</plugin>
 		</plugins>
