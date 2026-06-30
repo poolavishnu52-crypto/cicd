@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>3085bd31-d863-4cbe-b38b-5c9fd4109c67</groupId>
-	<artifactId>test</artifactId>
+	<artifactId>cicd</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
@@ -39,7 +39,7 @@
 						<muleVersion>4.12.0</muleVersion>
 						<username>poolavishnu52</username>
 						<password>Gyan@060219</password>
-						<applicationName>test</applicationName>
+						<applicationName>cicd</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<deploymentSettings>
