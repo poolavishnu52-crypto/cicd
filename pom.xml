@@ -38,7 +38,8 @@
     <target>Cloudhub-US-East-2</target> 
     <muleVersion>4.12.0</muleVersion>
     
-    <server>anypoint-exchange-v3</server>
+    <username>poolavishnu52</username>
+    <password>Gyan@060219</password>
     
     <applicationName>cicd</applicationName>
     <replicas>1</replicas>
