@@ -38,7 +38,7 @@
 						<muleVersion>4.12.0</muleVersion>
 						<username>poolavishnu52</username>
 						<password>Gyan@060219</password>
-						<applicationName>test</applicationName>
+						<applicationName>cicd</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<deploymentSettings>
