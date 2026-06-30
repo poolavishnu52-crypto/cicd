@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>3085bd31-d863-4cbe-b38b-5c9fd4109c67</groupId>
-	<artifactId>cicd</artifactId>
+	<artifactId>test</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
@@ -23,7 +23,6 @@
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>3.2.0</version>
 			</plugin>
-			
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
@@ -31,23 +30,21 @@
 				<extensions>true</extensions>
 				<configuration>
 					<classifier>mule-application</classifier>
-<cloudhub2Deployment>
-    <uri>https://anypoint.mulesoft.com</uri>
-    <provider>MC</provider>
-    <environment>dev</environment>
-    <target>Cloudhub-US-East-2</target> 
-    <muleVersion>4.12.0</muleVersion>
-    
-    <username>poolavishnu52</username>
-    <password>Gyan@060219</password>
-    
-    <applicationName>cicd</applicationName>
-    <replicas>1</replicas>
-    <vCores>0.1</vCores>
-    <deploymentSettings>
-        <generateDefaultPublicUrl>true</generateDefaultPublicUrl>
-    </deploymentSettings>
-</cloudhub2Deployment>
+					<cloudhub2Deployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<provider>MC</provider>
+						<environment>dev</environment>
+						<target>Cloudhub-US-East-2</target>
+						<muleVersion>4.12.0</muleVersion>
+						<username>poolavishnu52</username>
+						<password>Gyan@060219</password>
+						<applicationName>test</applicationName>
+						<replicas>1</replicas>
+						<vCores>0.1</vCores>
+						<deploymentSettings>
+							<generateDefaultPublicUrl>true</generateDefaultPublicUrl>
+						</deploymentSettings>
+					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
 		</plugins>
